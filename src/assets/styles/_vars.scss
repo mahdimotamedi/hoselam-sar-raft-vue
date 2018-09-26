@@ -1,0 +1,6 @@
+$main-font: Vazir;
+$second-font: Mikhak;
+
+@mixin transition($time:.3s, $el:all, $sprint: ease-in-out) {
+  transition: $time $el $sprint;
+}
