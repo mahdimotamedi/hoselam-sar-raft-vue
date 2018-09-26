@@ -12,7 +12,7 @@
       <router-view/>
     </transition>
 
-      <footer-part/>
+    <footer-part/>
   </div>
 </template>
 
