@@ -1,6 +1,12 @@
+// vars and base styles
 @import "vars";
 @import "base";
 
+// components
+@import "components/footer";
 
+// pages
+@import "pages/home";
 
+// responsive
 @import "responsive";

@@ -1,0 +1,23 @@
+.homepage {
+  padding-top: 18vh;
+
+  h1 {
+    font-family: $second-font;
+    font-weight: bold;
+    margin-top: 11vh;
+    font-size: 50px;
+  }
+
+  .btn {
+    margin-top: 8vh;
+    font-family: $second-font;
+    padding-right: 60px;
+    padding-left: 60px;
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  .homepage-image {
+    width: 80%;
+  }
+}
