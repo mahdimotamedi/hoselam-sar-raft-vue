@@ -1,15 +1,18 @@
 <template>
   <div id="app">
     <div id="top-lines">
-        <span class="n1"></span>
-        <span class="n2"></span>
-        <span class="n3"></span>
-        <span class="n4"></span>
-        <span class="n5"></span>
+      <span class="n1"></span>
+      <span class="n2"></span>
+      <span class="n3"></span>
+      <span class="n4"></span>
+      <span class="n5"></span>
     </div>
 
+    <transition name="fade" mode="out-in">
       <router-view/>
-      <footer-part />
+    </transition>
+
+      <footer-part/>
   </div>
 </template>
 
@@ -20,8 +23,9 @@
   @import "./assets/styles/main";
 </style>
 <script>
-    import FooterPart from "./components/FooterPart";
-    export default {
-        components: {FooterPart}
-    }
+  import FooterPart from "./components/FooterPart";
+
+  export default {
+    components: {FooterPart}
+  }
 </script>
