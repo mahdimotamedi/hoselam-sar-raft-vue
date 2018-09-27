@@ -58,3 +58,37 @@
     }
   }
 }
+
+@media screen and (max-width: 768px){
+  .fun-page {
+    background: none !important;
+
+    .page-head {
+    }
+
+    .page-icon {
+    }
+
+    .page-title {
+      display: none;
+    }
+
+    .back-btn {
+      font-size: 18px;
+    }
+
+    .content-box {
+      padding: 15px;
+      margin-top: 5vh;
+
+      p {
+        font-size: 17px;
+
+        img {
+          max-width: 100%;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}

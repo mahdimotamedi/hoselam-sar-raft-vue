@@ -9,3 +9,11 @@ footer {
     font-size: 15.5px;
   }
 }
+
+@media screen and (max-width: 768px){
+  footer {
+    margin-top: 18px;
+    position: static !important;
+    bottom: auto;
+  }
+}

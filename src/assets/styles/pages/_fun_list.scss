@@ -35,3 +35,22 @@
     }
   }
 }
+
+@media screen and (max-width: 768px){
+  .fun-list {
+    margin-top: 5vh;
+
+    .list-item {
+      height: 86px;
+
+      .list-image {
+        width: 50px;
+        margin-left: 17px;
+      }
+
+      .list-title {
+        font-size: 18px;
+      }
+    }
+  }
+}
