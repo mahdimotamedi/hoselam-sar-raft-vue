@@ -1,27 +1,24 @@
 .fun-page {
   &.fun-fact {
     background: url("./assets/images/bg/fun-fact.png")
-    no-repeat 5% 40px;
+    no-repeat 195px 70px;
   }
 
   &.joke {
     background: url("./assets/images/bg/joke.png")
-    no-repeat 5% 80px;
+    no-repeat 110px 100px;
   }
 
   &.marry {
     background: url("./assets/images/bg/marry.png")
-    no-repeat 5% 30px;
+    no-repeat 100px 100px;
   }
 
   &.far-galaxy {
-    background: url("./assets/images/bg/galaxy.png")
-    no-repeat 5% 10px;
   }
 
   &.devil {
     background: url("./assets/images/bg/devil.png")
-    no-repeat 5% 10px;
-    background-size: 600px;
+    no-repeat 140px 36px;
   }
 }
