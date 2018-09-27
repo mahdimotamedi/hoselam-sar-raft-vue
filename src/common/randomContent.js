@@ -33,7 +33,7 @@ export default new class randomContent
     if (!readItems)
       readItems = [];
 
-    if (this.contents.length === readItems.length) {
+    if (this.contents.length <= readItems.length) {
       jsonLocalStorage.removeItem(this.contentName);
       readItems = [];
     }

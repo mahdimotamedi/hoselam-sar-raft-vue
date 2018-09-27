@@ -2,7 +2,7 @@
   <div class="col-md-12 content-box">
     <p>
       <img :src="require('../assets/images/' + image)" v-if="image">
-      {{ content }}
+      <span v-html="content"></span>
     </p>
 
     <div class="clearfix"></div>

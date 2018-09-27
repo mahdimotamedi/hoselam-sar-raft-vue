@@ -29,6 +29,7 @@
     {
       return {
         content: '',
+        randomContent: randomContent,
       }
     },
 
@@ -37,6 +38,6 @@
       randomContent.setContents(contents, 'fun-facts');
       let content = randomContent.getRandomContent();
       this.content = content.content;
-    }
+    },
   }
 </script>
