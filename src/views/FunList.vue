@@ -29,14 +29,14 @@
         <span class="list-title">شوهر می‌خوام!</span>
       </router-link>
 
-      <router-link class="list-item col-md-12" to="/">
+      <router-link class="list-item col-md-12" to="/fun/far-galaxy">
             <span class="list-image">
               <img src="./../assets/images/poker.png" width="70">
             </span>
         <span class="list-title">میخوام برم به یک کهکشان خیلی خیلی دور...</span>
       </router-link>
 
-      <router-link class="list-item col-md-12" to="/">
+      <router-link class="list-item col-md-12" to="/fun/devil">
             <span class="list-image">
               <img src="./../assets/images/devil.png" width="70">
             </span>

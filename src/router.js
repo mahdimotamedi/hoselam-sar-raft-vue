@@ -6,6 +6,8 @@ import FunFact from './views/fun-pages/FunFact'
 import Joke from './views/fun-pages/Joke'
 import MarryWithWoman from './views/fun-pages/MarryWithWoman'
 import MarryWithMan from './views/fun-pages/MarryWithMan'
+import FarGalaxy from './views/fun-pages/FarGalaxy'
+import Devil from './views/fun-pages/Devil'
 
 Vue.use(Router);
 
@@ -42,6 +44,18 @@ export default new Router({
       path: '/fun/marry/man',
       name: 'marry-with-man',
       component: MarryWithMan
+    }
+    ,
+    {
+      path: '/fun/far-galaxy',
+      name: 'far-galaxy',
+      component: FarGalaxy
+    }
+    ,
+    {
+      path: '/fun/devil',
+      name: 'devil',
+      component: Devil
     }
   ]
 })
