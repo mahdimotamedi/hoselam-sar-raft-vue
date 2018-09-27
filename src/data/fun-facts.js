@@ -11,7 +11,7 @@ export default [
   },
   {
     id: 2,
-    content: ` 6 ساعت ورزش در هفته برای بهداشت روان کافی است. بر اساس تحقیقات بسیار بزرگی که اخیرا انجام شده، 2 تا 6 ساعت ورزش در هفته برای بهبود سلامت روان انسان کفایت میکند.
+    content: ` 6 ساعت ورزش در هفته برای بهداشت روان کافی است. بر اساس ابر تحقیقاتی که اخیرا انجام شده، 2 تا 6 ساعت ورزش در هفته برای بهبود سلامت روان انسان کفایت میکند.
 <br> منبع: <a target="_blank" href="http://server.nobexrc.com/share.aspx?customid=&stationid=2885&songid=1387858290">http://server.nobexrc.com/share.aspx?customid=&stationid=2885</a>`,
   },
   {
@@ -43,5 +43,55 @@ export default [
     id: 8,
     content: `بچه داشتن، طول عمر انسان را افزایش میدهد.
 <br> منبع: <a target="_blank" href="https://jech.bmj.com/content/early/2017/01/30/jech-2016-207857">https://jech.bmj.com/content/early/2017/01/30/jech-2016</a>`,
+  },
+  {
+    id: 9,
+    content: `شیرهای پاستوریزه معمولی فقط تا 7 روز و در یخچال قابل نگهداری هستند اما شیرهای فرا دما را میتوان تا 3 ماه بدون خرابی نگه داشت.
+<br> منبع: <a target="_blank" href="https://dairygood.org/content/2017/uht-milk-what-is-ultra-high-temperature-milk">https://dairygood.org/content/2017/uht-milk-what-is-ultra-high-temperature</a>`,
+  },
+  {
+    id: 10,
+    content: `راه رفتن خنده دار پنگوئن ها 15 درصد از راه رفتن انسان کارآمد تر است.
+<br> منبع: <a target="_blank" href="https://carlzimmer.com/articles/2001.php?subaction=showfull&id=1177557995&archive=&start_from=&ucat=4">https://carlzimmer.com/articles/2001.php?subaction=showfull&id=11775</a>`,
+  },
+  {
+    id: 11,
+    content: `زبان انسان برای اینکه کلمات را به درستی بیان کند، 8 ماهیچه دارد که به صورت مجزا فعالیت میکنند.
+<br> منبع: <a target="_blank" href="https://en.wikipedia.org/wiki/Tongue">https://en.wikipedia.org/wiki/Tongue</a>`,
+  },
+  {
+    id: 12,
+    content: `برای اولین بار "هرون اسکندرانی" 2000 سال پیش دستگاهی ساخت که برای فروش "آب مقدس" به صورت خودکار استفاده میشد.
+<br> منبع: <a target="_blank" href="https://www.elixirofknowledge.com/2014/06/ancient-coin-operated-holy-water.html">https://www.elixirofknowledge.com/2014/06/ancient-coin-operated</a>`,
+  },
+  {
+    id: 13,
+    content: `انسان 27 احساس مختلف دارد. شادی، غم، خشم، تنفر و ترس فقط 5 حس از این احساسات است.
+<br> منبع: <a target="_blank" href="http://news.berkeley.edu/2017/09/06/27-emotions/">http://news.berkeley.edu/2017/09/06/27-emotions/</a>`,
+  },
+  {
+    id: 14,
+    content: `اگر یک فیل داشته باشید، باید روزانه 300 کیلوگرم غذا برای رفع نیاز او فراهم کنید.
+<br> منبع: <a target="_blank" href="https://blog.nationalgeographic.org/2016/02/02/how-much-food-does-a-thai-elephant-eat-in-a-day/">https://blog.nationalgeographic.org/2016/02/02/how-much-food-does-a-thai-elephant</a>`,
+  },
+  {
+    id: 15,
+    content: `زبان مادری ما هرگز فراموش نمیشود، حتی اگر از آن استفاده نکنیم.
+<br> منبع: <a target="_blank" href="http://rsos.royalsocietypublishing.org/content/4/1/160660">http://rsos.royalsocietypublishing.org/content/4/1/1606</a>`,
+  },
+  {
+    id: 16,
+    content: `حل معما و جدول باعث میشود که ذهن هوشیار تری در کهنسالی داشته باشیم.
+<br> منبع: <a target="_blank" href="http://www.exeter.ac.uk/news/featurednews/title_595009_en.html">http://www.exeter.ac.uk/news/featurednews/title_595009_en.html</a>`,
+  },
+  {
+    id: 17,
+    content: `استفاده از <strong>مایکروویو</strong> در پختن غذا سبب میشود که ویتامین های آن بهتر حفظ شود. زیرا که این ریز مغذی ها در برابر حرارت در هم میشکنند.
+<br> منبع: <a target="_blank" href="https://www.health.harvard.edu/staying-healthy/microwave-cooking-and-nutrition">https://www.health.harvard.edu/staying-healthy/microwave-cooking</a>`,
+  },
+  {
+    id: 18,
+    content: `اگر کل تاریخ جهان را در 24 ساعت خلاصه کنیم. انسان فقط در 13 دقیقه پایانی روز 29 اسفند حضور دارد.
+<br> منبع: <a target="_blank" href="https://www.khanacademy.org/humanities/world-history/world-history-beginnings/origin-humans-early-societies/a/where-did-humans-come-from">https://www.khanacademy.org/humanities/world-history/world-history-beginnings</a>`,
   },
 ]
