@@ -1,10 +1,10 @@
 <template>
-  <div class="fun-page fun-fact container">
+  <div class="fun-page joke container">
     <div class="col-md-12 page-head">
             <span class="page-icon">
-              <img src="./../../assets/images/leaf.png">
+              <img src="./../../assets/images/joke.png">
             </span>
-      <span class="page-title">یک مطلب در مورد جهان هستی بگو که برگام بریزه!</span>
+      <span class="page-title">یک جک بگو که تا حالا نشنیدم!</span>
 
       <router-link class="back-btn mr-auto" to="/help">
         <img src="./../../assets/images/back-icon.png" height="15">
@@ -20,7 +20,7 @@
 
   import ContentBox from "../../components/ContentBox";
   export default {
-    name: 'FunFact',
+    name: 'Joke',
     components: {ContentBox},
   }
 </script>
