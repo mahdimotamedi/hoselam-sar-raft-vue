@@ -43,6 +43,9 @@
       let content = randomContent.getRandomContent();
       this.content = content.content;
       this.image = content.image;
+
+      if (randomContent.allItemsRead)
+        alert ("دوست عزیز به خدا زنامون همینا بود. 7 میلیارد آدمن اگه میخوای  یکی رو بگیر ناموسا :|");
     },
   }
 </script>

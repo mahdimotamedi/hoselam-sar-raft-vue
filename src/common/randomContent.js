@@ -17,6 +17,7 @@ export default new class randomContent
   {
     this.contents = contents;
     this.contentName = contentName;
+    this.allItemsRead = false;
   }
 
   /**
@@ -36,6 +37,7 @@ export default new class randomContent
     if (this.contents.length <= readItems.length) {
       jsonLocalStorage.removeItem(this.contentName);
       readItems = [];
+      this.allItemsRead = true;
     }
 
     // delete read items

@@ -13,16 +13,38 @@
     </div>
 
     <content-box
-        image="men/1.jpg"
-        content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جام." />
+        :image="image"
+        :content="content" />
   </div>
 </template>
 
 <script>
 
   import ContentBox from "../../components/ContentBox";
+  import contents from "../../data/men"
+  import randomContent from "../../common/randomContent";
+
   export default {
     name: 'MarryWithMan',
     components: {ContentBox},
+
+    data()
+    {
+      return {
+        content: '',
+        image: '',
+      }
+    },
+
+    mounted()
+    {
+      randomContent.setContents(contents, 'men');
+      let content = randomContent.getRandomContent();
+      this.content = content.content;
+      this.image = content.image;
+
+      if (randomContent.allItemsRead);
+        alert ("دوست عزیز به خدا شوهرامون همینا بود. 7 میلیارد آدمن یک آدمی چیزی پیدا کن باو! مرسی اه :|");
+    },
   }
 </script>
