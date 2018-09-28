@@ -1,6 +1,6 @@
 <template>
   <div class="col-md-12 content-box">
-    <p>
+    <p v-bind:class="{ poetry: poetry }">
       <img :src="require('../assets/images/' + image)" v-if="image">
       <span v-html="content"></span>
     </p>
@@ -12,7 +12,7 @@
 <script>
 export default {
   name: 'ContentBox',
-  props: ['content', 'image'],
+  props: ['content', 'image', 'poetry'],
 }
 </script>
 

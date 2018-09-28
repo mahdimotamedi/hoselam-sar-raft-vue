@@ -43,8 +43,8 @@
       this.content = content.content;
       this.image = content.image;
 
-      if (randomContent.allItemsRead);
-        alert ("دوست عزیز به خدا شوهرامون همینا بود. 7 میلیارد آدمن یک آدمی چیزی پیدا کن باو! مرسی اه :|");
+      if (randomContent.allItemsRead)
+        alert ("دوست عزیز به خدا شوهرامون همینا بود. 7 میلیارد آدمن یک چیزی پیدا کن باو! مرسی اه :|");
     },
   }
 </script>

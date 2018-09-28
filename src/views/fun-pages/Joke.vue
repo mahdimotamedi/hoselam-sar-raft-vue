@@ -21,6 +21,7 @@
   import ContentBox from "../../components/ContentBox";
   import contents from "../../data/jokes"
   import randomContent from "../../common/randomContent";
+  import {requestToSendContent} from "../../common/utilities";
 
   export default {
     name: 'Joke',
@@ -38,6 +39,9 @@
       randomContent.setContents(contents, 'jokes');
       let content = randomContent.getRandomContent();
       this.content = content.content;
+
+      if (randomContent.allItemsRead)
+        requestToSendContent();
     },
   }
 </script>

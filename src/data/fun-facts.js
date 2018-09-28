@@ -96,7 +96,7 @@ export default [
   },
   {
     id: 19,
-    content: `دست و پا کردن چند دوست خوب، کاری است که همیشه در زندگی انجام میدهیم. معاشرت کردن با دوستان باعث میشود که بیشتر عمر کنیم
+    content: `دست و پا کردن چند دوست خوب، کاری است که همیشه در زندگی انجام میدهیم. بر اساس تحقیقات معاشرت کردن با دوستان باعث میشود که بیشتر عمر کنیم.
 <br> منبع: <a target="_blank" href="https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1000316">https://journals.plos.org/plosmedicine/article?id=10.1371</a>`,
   },
   {

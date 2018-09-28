@@ -51,6 +51,11 @@
       line-height: 1.946;
       word-wrap: break-word;
 
+      &.poetry {
+        line-height: 1.85;
+        font-size: 19px;
+      }
+
       img {
         float: right;
         max-height: 200px;
@@ -84,6 +89,11 @@
 
       p {
         font-size: 17px;
+
+        &.poetry {
+          line-height: 1.9;
+          font-size: 17px;
+        }
 
         img {
           max-width: 100%;

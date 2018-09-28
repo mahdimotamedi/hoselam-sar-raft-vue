@@ -4,7 +4,7 @@
             <span class="page-icon">
               <img src="./../../assets/images/poker.png">
             </span>
-      <span class="page-title">میخوام برم به یک کهکشان خیلی خیلی دور...</span>
+      <span class="page-title">میخوام برم به یک کهکشان دیگه...</span>
 
       <router-link class="back-btn mr-auto" to="/help">
         <img src="./../../assets/images/back-icon.png" height="15">
@@ -12,15 +12,37 @@
       </router-link>
     </div>
 
-    <content-box content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جام." />
+    <content-box :content="content" :poetry="poetry" />
   </div>
 </template>
 
 <script>
 
-  import ContentBox from "../../components/ContentBox";
+  import ContentBox from "../../components/ContentBox"
+  import contents from "../../data/far-galaxy"
+  import randomContent from "../../common/randomContent"
+  import {requestToSendContent} from "../../common/utilities";
+
   export default {
     name: 'FarGalaxy',
     components: {ContentBox},
+    data()
+    {
+      return {
+        content: '',
+        poetry: false,
+      }
+    },
+
+    mounted()
+    {
+      randomContent.setContents(contents, 'far-galaxy');
+      let content = randomContent.getRandomContent();
+      this.content = content.content;
+      this.poetry = content.poetry;
+
+      if (randomContent.allItemsRead);
+        // requestToSendContent();
+    },
   }
 </script>
