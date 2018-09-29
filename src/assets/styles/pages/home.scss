@@ -32,6 +32,19 @@
   }
 }
 
+@media screen and (max-width: 768px){
+  .homepage {
+
+    h1 {
+      margin-top: 5vh;
+    }
+
+    .btn {
+      margin-bottom: 6vh;
+    }
+  }
+}
+
 @keyframes image-shake {
   0% {
     transform: rotate(0);
