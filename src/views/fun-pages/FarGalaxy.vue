@@ -4,7 +4,7 @@
             <span class="page-icon">
               <img src="./../../assets/images/poker.png">
             </span>
-      <span class="page-title">میخوام برم به یک کهکشان دیگه...</span>
+      <span class="page-title">در یک کهکشان دیگر...</span>
 
       <router-link class="back-btn mr-auto" to="/help">
         <img src="./../../assets/images/back-icon.png" height="15">
@@ -41,8 +41,8 @@
       this.content = content.content;
       this.poetry = content.poetry;
 
-      if (randomContent.allItemsRead);
-        // requestToSendContent();
+      if (randomContent.allItemsRead)
+        requestToSendContent();
     },
   }
 </script>

@@ -33,7 +33,7 @@
             <span class="list-image">
               <img src="./../assets/images/poker.png" width="70">
             </span>
-        <span class="list-title">میخوام برم به یک کهکشان دیگه...</span>
+        <span class="list-title">در یک کهکشان دیگر...</span>
       </router-link>
 
       <router-link class="list-item col-md-12" to="/fun/devil">

@@ -12,15 +12,37 @@
       </router-link>
     </div>
 
-    <content-box content="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جام." />
+    <content-box :content="content" :image="image" />
   </div>
 </template>
 
 <script>
 
-  import ContentBox from "../../components/ContentBox";
+  import ContentBox from "../../components/ContentBox"
+  import contents from "../../data/devil"
+  import randomContent from "../../common/randomContent"
+  import {requestToSendContent} from "../../common/utilities"
+
   export default {
     name: 'Devil',
     components: {ContentBox},
+    data()
+    {
+      return {
+        content: '',
+        image: '',
+      }
+    },
+
+    mounted()
+    {
+      randomContent.setContents(contents, 'devil');
+      let content = randomContent.getRandomContent();
+      this.content = content.content;
+      this.image = content.image;
+
+      if (randomContent.allItemsRead)
+        requestToSendContent();
+    },
   }
 </script>
