@@ -17,7 +17,8 @@
 </template>
 
 <style lang="scss">
-  @import "./../node_modules/bootstrap-v4-rtl/dist/css/bootstrap-rtl.min.css";
+  @import "./../node_modules/bootstrap/dist/css/bootstrap-reboot.min.css";
+  @import "./../node_modules/bootstrap/dist/css/bootstrap-grid.min.css";
   @import "./assets/fonts/vazir-webfont/stylesheet.css";
   @import "./assets/fonts/mikhak-webfont/stylesheet.css";
   @import "./assets/styles/main";
