@@ -22,6 +22,7 @@
   @import "./assets/fonts/mikhak-webfont/stylesheet.css";
   @import "./assets/styles/main";
 </style>
+
 <script>
   import FooterPart from "./components/FooterPart";
 
