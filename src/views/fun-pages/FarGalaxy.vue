@@ -1,16 +1,6 @@
 <template>
   <div class="fun-page far-galaxy container">
-    <div class="col-md-12 page-head">
-            <span class="page-icon">
-              <img src="./../../assets/images/poker.png">
-            </span>
-      <span class="page-title">در یک کهکشان دیگر...</span>
-
-      <router-link class="back-btn mr-auto" to="/help">
-        <img src="./../../assets/images/back-icon.png" height="15">
-        بازگشت
-      </router-link>
-    </div>
+    <fun-page-head title="در یک کهکشان دیگر..." image="poker.png" />
 
     <content-box :content="content" :poetry="poetry" />
   </div>
@@ -22,10 +12,11 @@
   import contents from "../../data/far-galaxy"
   import randomContent from "../../common/randomContent"
   import {requestToSendContent} from "../../common/utilities";
+  import FunPageHead from "../../components/FunPageHead";
 
   export default {
     name: 'FarGalaxy',
-    components: {ContentBox},
+    components: {FunPageHead, ContentBox},
     data()
     {
       return {

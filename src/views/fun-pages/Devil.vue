@@ -1,16 +1,6 @@
 <template>
   <div class="fun-page devil container">
-    <div class="col-md-12 page-head">
-            <span class="page-icon">
-              <img src="./../../assets/images/devil.png">
-            </span>
-      <span class="page-title">همکاری با مادر ابلیس!</span>
-
-      <router-link class="back-btn mr-auto" to="/help">
-        <img src="./../../assets/images/back-icon.png" height="15">
-        بازگشت
-      </router-link>
-    </div>
+    <fun-page-head title="همکاری با مادر ابلیس!" image="devil.png" />
 
     <content-box :content="content" :image="image" />
   </div>
@@ -22,10 +12,11 @@
   import contents from "../../data/devil"
   import randomContent from "../../common/randomContent"
   import {requestToSendContent} from "../../common/utilities"
+  import FunPageHead from "../../components/FunPageHead";
 
   export default {
     name: 'Devil',
-    components: {ContentBox},
+    components: {FunPageHead, ContentBox},
     data()
     {
       return {

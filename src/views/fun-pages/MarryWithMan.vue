@@ -1,16 +1,6 @@
 <template>
   <div class="fun-page marry container">
-    <div class="col-md-12 page-head">
-            <span class="page-icon">
-              <img src="./../../assets/images/man.png">
-            </span>
-      <span class="page-title">شوهر می‌خوام!</span>
-
-      <router-link class="back-btn mr-auto" to="/help">
-        <img src="./../../assets/images/back-icon.png" height="15">
-        بازگشت
-      </router-link>
-    </div>
+    <fun-page-head title="شوهر می‌خوام!" image="man.png" />
 
     <content-box
         :image="image"
@@ -23,10 +13,11 @@
   import ContentBox from "../../components/ContentBox";
   import contents from "../../data/men"
   import randomContent from "../../common/randomContent";
+  import FunPageHead from "../../components/FunPageHead";
 
   export default {
     name: 'MarryWithMan',
-    components: {ContentBox},
+    components: {FunPageHead, ContentBox},
 
     data()
     {
